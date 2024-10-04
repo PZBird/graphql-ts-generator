@@ -1,0 +1,4 @@
+*
+!.gitignore
+!schema1.graphql
+!schema2.graphql

@@ -1,0 +1,17 @@
+{
+  "name": "graphql-ts-generator",
+  "version": "0.0.2-alpha1",
+  "description": "CLI tool to generate TypeScript interfaces from many GraphQL schemas",
+  "bin": {
+    "generate-types": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Pavel Zabelin",
+  "license": "MIT",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "os": "^0.1.2"
+  }
+}

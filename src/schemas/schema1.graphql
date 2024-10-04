@@ -1,0 +1,8 @@
+type Project {
+  id: ID!
+  name: String!
+}
+
+type Query {
+  getProjects: [Project!]!
+}
